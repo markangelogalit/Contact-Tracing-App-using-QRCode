@@ -43,8 +43,9 @@
             this.btnqr1.Name = "btnqr1";
             this.btnqr1.Size = new System.Drawing.Size(75, 23);
             this.btnqr1.TabIndex = 0;
-            this.btnqr1.Text = "button1";
+            this.btnqr1.Text = "SCAN";
             this.btnqr1.UseVisualStyleBackColor = true;
+            this.btnqr1.Click += new System.EventHandler(this.btnqr1_Click);
             // 
             // cmbqr1
             // 
@@ -66,11 +67,11 @@
             // lblqr1
             // 
             this.lblqr1.AutoSize = true;
-            this.lblqr1.Location = new System.Drawing.Point(385, 95);
+            this.lblqr1.Location = new System.Drawing.Point(365, 93);
             this.lblqr1.Name = "lblqr1";
-            this.lblqr1.Size = new System.Drawing.Size(35, 13);
+            this.lblqr1.Size = new System.Drawing.Size(55, 13);
             this.lblqr1.TabIndex = 3;
-            this.lblqr1.Text = "label1";
+            this.lblqr1.Text = "CAMERA:";
             // 
             // pcbqr1
             // 
@@ -83,11 +84,11 @@
             // lblqr2
             // 
             this.lblqr2.AutoSize = true;
-            this.lblqr2.Location = new System.Drawing.Point(335, 28);
+            this.lblqr2.Location = new System.Drawing.Point(276, 28);
             this.lblqr2.Name = "lblqr2";
-            this.lblqr2.Size = new System.Drawing.Size(35, 13);
+            this.lblqr2.Size = new System.Drawing.Size(185, 13);
             this.lblqr2.TabIndex = 5;
-            this.lblqr2.Text = "label2";
+            this.lblqr2.Text = "QR CODE CONTACT TRACING APP";
             // 
             // Form1
             // 
@@ -102,6 +103,8 @@
             this.Controls.Add(this.btnqr1);
             this.Name = "Form1";
             this.Text = "QRCode";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcbqr1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
