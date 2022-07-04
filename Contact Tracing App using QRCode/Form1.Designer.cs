@@ -28,70 +28,81 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.btnqr1 = new System.Windows.Forms.Button();
+            this.cmbqr1 = new System.Windows.Forms.ComboBox();
+            this.tbxqr1 = new System.Windows.Forms.TextBox();
+            this.lblqr1 = new System.Windows.Forms.Label();
+            this.pcbqr1 = new System.Windows.Forms.PictureBox();
+            this.lblqr2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbqr1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btnqr1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 148);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnqr1.Location = new System.Drawing.Point(98, 90);
+            this.btnqr1.Name = "btnqr1";
+            this.btnqr1.Size = new System.Drawing.Size(75, 23);
+            this.btnqr1.TabIndex = 0;
+            this.btnqr1.Text = "button1";
+            this.btnqr1.UseVisualStyleBackColor = true;
             // 
-            // comboBox1
+            // cmbqr1
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(426, 90);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(334, 21);
-            this.comboBox1.TabIndex = 1;
+            this.cmbqr1.FormattingEnabled = true;
+            this.cmbqr1.Location = new System.Drawing.Point(426, 90);
+            this.cmbqr1.Name = "cmbqr1";
+            this.cmbqr1.Size = new System.Drawing.Size(334, 21);
+            this.cmbqr1.TabIndex = 1;
             // 
-            // textBox1
+            // tbxqr1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 177);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(261, 339);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.tbxqr1.Location = new System.Drawing.Point(12, 117);
+            this.tbxqr1.Multiline = true;
+            this.tbxqr1.Name = "tbxqr1";
+            this.tbxqr1.Size = new System.Drawing.Size(261, 399);
+            this.tbxqr1.TabIndex = 2;
+            this.tbxqr1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // label1
+            // lblqr1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(385, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "label1";
+            this.lblqr1.AutoSize = true;
+            this.lblqr1.Location = new System.Drawing.Point(385, 95);
+            this.lblqr1.Name = "lblqr1";
+            this.lblqr1.Size = new System.Drawing.Size(35, 13);
+            this.lblqr1.TabIndex = 3;
+            this.lblqr1.Text = "label1";
             // 
-            // pictureBox1
+            // pcbqr1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(279, 117);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(481, 399);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pcbqr1.Location = new System.Drawing.Point(279, 117);
+            this.pcbqr1.Name = "pcbqr1";
+            this.pcbqr1.Size = new System.Drawing.Size(481, 399);
+            this.pcbqr1.TabIndex = 4;
+            this.pcbqr1.TabStop = false;
+            // 
+            // lblqr2
+            // 
+            this.lblqr2.AutoSize = true;
+            this.lblqr2.Location = new System.Drawing.Point(335, 28);
+            this.lblqr2.Name = "lblqr2";
+            this.lblqr2.Size = new System.Drawing.Size(35, 13);
+            this.lblqr2.TabIndex = 5;
+            this.lblqr2.Text = "label2";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 519);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblqr2);
+            this.Controls.Add(this.pcbqr1);
+            this.Controls.Add(this.lblqr1);
+            this.Controls.Add(this.tbxqr1);
+            this.Controls.Add(this.cmbqr1);
+            this.Controls.Add(this.btnqr1);
             this.Name = "Form1";
             this.Text = "QRCode";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbqr1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,11 +110,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnqr1;
+        private System.Windows.Forms.ComboBox cmbqr1;
+        private System.Windows.Forms.TextBox tbxqr1;
+        private System.Windows.Forms.Label lblqr1;
+        private System.Windows.Forms.PictureBox pcbqr1;
+        private System.Windows.Forms.Label lblqr2;
     }
 }
 
