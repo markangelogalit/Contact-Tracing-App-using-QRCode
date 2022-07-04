@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnqr1 = new System.Windows.Forms.Button();
             this.cmbqr1 = new System.Windows.Forms.ComboBox();
             this.tbxqr1 = new System.Windows.Forms.TextBox();
@@ -119,6 +120,7 @@
             this.Controls.Add(this.tbxqr1);
             this.Controls.Add(this.cmbqr1);
             this.Controls.Add(this.btnqr1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "QRCode";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
