@@ -74,5 +74,15 @@ namespace Contact_Tracing_App_using_QRCode
             }
 
             }
+
+        private void cmbqr1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblqr1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
