@@ -28,18 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btnqr1 = new System.Windows.Forms.Button();
             this.cmbqr1 = new System.Windows.Forms.ComboBox();
             this.tbxqr1 = new System.Windows.Forms.TextBox();
             this.lblqr1 = new System.Windows.Forms.Label();
             this.pcbqr1 = new System.Windows.Forms.PictureBox();
             this.lblqr2 = new System.Windows.Forms.Label();
+            this.timerqr1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pcbqr1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnqr1
             // 
-            this.btnqr1.Location = new System.Drawing.Point(98, 90);
+            this.btnqr1.Location = new System.Drawing.Point(79, 90);
             this.btnqr1.Name = "btnqr1";
             this.btnqr1.Size = new System.Drawing.Size(75, 23);
             this.btnqr1.TabIndex = 0;
@@ -50,9 +52,9 @@
             // cmbqr1
             // 
             this.cmbqr1.FormattingEnabled = true;
-            this.cmbqr1.Location = new System.Drawing.Point(426, 90);
+            this.cmbqr1.Location = new System.Drawing.Point(394, 87);
             this.cmbqr1.Name = "cmbqr1";
-            this.cmbqr1.Size = new System.Drawing.Size(334, 21);
+            this.cmbqr1.Size = new System.Drawing.Size(351, 21);
             this.cmbqr1.TabIndex = 1;
             // 
             // tbxqr1
@@ -60,14 +62,14 @@
             this.tbxqr1.Location = new System.Drawing.Point(12, 117);
             this.tbxqr1.Multiline = true;
             this.tbxqr1.Name = "tbxqr1";
-            this.tbxqr1.Size = new System.Drawing.Size(261, 399);
+            this.tbxqr1.Size = new System.Drawing.Size(222, 399);
             this.tbxqr1.TabIndex = 2;
             this.tbxqr1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblqr1
             // 
             this.lblqr1.AutoSize = true;
-            this.lblqr1.Location = new System.Drawing.Point(365, 93);
+            this.lblqr1.Location = new System.Drawing.Point(333, 90);
             this.lblqr1.Name = "lblqr1";
             this.lblqr1.Size = new System.Drawing.Size(55, 13);
             this.lblqr1.TabIndex = 3;
@@ -75,9 +77,9 @@
             // 
             // pcbqr1
             // 
-            this.pcbqr1.Location = new System.Drawing.Point(279, 117);
+            this.pcbqr1.Location = new System.Drawing.Point(336, 117);
             this.pcbqr1.Name = "pcbqr1";
-            this.pcbqr1.Size = new System.Drawing.Size(481, 399);
+            this.pcbqr1.Size = new System.Drawing.Size(409, 399);
             this.pcbqr1.TabIndex = 4;
             this.pcbqr1.TabStop = false;
             // 
@@ -89,6 +91,11 @@
             this.lblqr2.Size = new System.Drawing.Size(185, 13);
             this.lblqr2.TabIndex = 5;
             this.lblqr2.Text = "QR CODE CONTACT TRACING APP";
+            // 
+            // timerqr1
+            // 
+            this.timerqr1.Interval = 1000;
+            this.timerqr1.Tick += new System.EventHandler(this.timerqr1_Tick);
             // 
             // Form1
             // 
@@ -119,6 +126,7 @@
         private System.Windows.Forms.Label lblqr1;
         private System.Windows.Forms.PictureBox pcbqr1;
         private System.Windows.Forms.Label lblqr2;
+        private System.Windows.Forms.Timer timerqr1;
     }
 }
 

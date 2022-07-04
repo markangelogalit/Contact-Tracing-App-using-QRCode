@@ -1,0 +1,22 @@
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\Contact Tracing App using QRCode.exe.config
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\Contact Tracing App using QRCode.exe
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\Contact Tracing App using QRCode.pdb
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.dll
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.Video.dll
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\zxing.dll
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\zxing.presentation.dll
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.xml
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.Video.xml
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\zxing.xml
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\bin\Debug\zxing.presentation.xml
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.csproj.AssemblyReference.cache
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.csproj.SuggestedBindingRedirects.cache
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact_Tracing_App_using_QRCode.Form1.resources
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact_Tracing_App_using_QRCode.Properties.Resources.resources
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.csproj.GenerateResource.cache
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.csproj.CopyComplete
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.exe
+C:\Users\admin\source\repos\Contact Tracing App using QRCode\Contact Tracing App using QRCode\obj\Debug\Contact Tracing App using QRCode.pdb

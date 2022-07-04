@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using AForge.Video;
 using AForge.Video.DirectShow;
+using ZXing;
 
 namespace Contact_Tracing_App_using_QRCode
 {
@@ -41,6 +42,7 @@ namespace Contact_Tracing_App_using_QRCode
             captureDevice = new VideoCaptureDevice(filterInfoCollection[cmbqr1.SelectedIndex].MonikerString);
             captureDevice.NewFrame += CaptureDevice_NewFrame;
             captureDevice.Start();
+            timerqr1.Start();
 
         }
 
@@ -55,5 +57,22 @@ namespace Contact_Tracing_App_using_QRCode
             if (captureDevice.IsRunning)
                 captureDevice.Stop();
         }
+
+        private void timerqr1_Tick(object sender, EventArgs e)
+        {
+            if (pcbqr1.Image != null)
+            {
+                BarcodeReader barcodeReader = new BarcodeReader();
+                Result result = barcodeReader.Decode((Bitmap)pcbqr1.Image);
+                if (result != null)
+                {
+                    tbxqr1.Text = result.ToString();
+                    timerqr1.Stop();
+                    if (captureDevice.IsRunning)
+                        captureDevice.Stop();
+                }
+            }
+
+            }
     }
 }
